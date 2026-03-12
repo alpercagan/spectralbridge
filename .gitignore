@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data and outputs (too large for Git)
+data/raw/*
+data/processed/*
+data/features/*
+outputs/checkpoints/*
+outputs/logs/*
+outputs/figures/*
+
+# Keep directory structure with .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/features/.gitkeep
+!outputs/checkpoints/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/figures/.gitkeep
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+spect/  # in case conda creates local env folder
+
+# Conda
+*.conda
+.conda/
