@@ -56,4 +56,4 @@ spect/  # in case conda creates local env folder
 
 # Conda
 *.conda
-.conda/
+.conda/.clauderc
